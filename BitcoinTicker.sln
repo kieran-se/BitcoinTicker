@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitcoinTickerApi", "BitcoinTickerApi\BitcoinTickerApi.csproj", "{8D78F63A-FC54-4E1D-ABC4-112779315961}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BitcoinTickerUi", "BitcoinTickerUi\", "{7233FD34-FA72-4228-8C9C-3EC3DF49BB7E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49997"
+		Debug.AspNetCompiler.PhysicalPath = "BitcoinTickerUi\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49997\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49997"
+		Release.AspNetCompiler.PhysicalPath = "BitcoinTickerUi\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49997\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49997"
+		SlnRelativePath = "BitcoinTickerUi\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D78F63A-FC54-4E1D-ABC4-112779315961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D78F63A-FC54-4E1D-ABC4-112779315961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D78F63A-FC54-4E1D-ABC4-112779315961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D78F63A-FC54-4E1D-ABC4-112779315961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7233FD34-FA72-4228-8C9C-3EC3DF49BB7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7233FD34-FA72-4228-8C9C-3EC3DF49BB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7233FD34-FA72-4228-8C9C-3EC3DF49BB7E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7233FD34-FA72-4228-8C9C-3EC3DF49BB7E}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {668CB8C8-F64D-4F86-8D62-347738FCE4A6}
+	EndGlobalSection
+EndGlobal
